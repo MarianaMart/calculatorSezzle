@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.local
+coverage/
+.idea/
+.DS_Store
+
+*.exe
+*.test
+*.out
