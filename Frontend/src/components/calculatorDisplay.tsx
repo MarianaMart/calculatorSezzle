@@ -13,9 +13,12 @@ function CalculatorDisplay({
         {expression || '\u00A0'}
       </div>
 
-      <div className="calculator-value">
+      <output
+        className="calculator-value"
+        aria-label="Calculator display"
+      >
         {display}
-      </div>
+      </output>
     </div>
   )
 }
